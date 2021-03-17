@@ -25,7 +25,7 @@ public class DinoApp extends Application {
     public void start(Stage s) {
         try {
             Pane root = new Pane();
-            s.setTitle("Dino Game");
+            s.setTitle("Dino Game!");
             s.getIcons().add(new Image("sprites/Dino-stand.png"));
             s.setResizable(false);
             s.centerOnScreen();
