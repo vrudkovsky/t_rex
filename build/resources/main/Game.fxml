@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="world.ucode.controlers.GameController">
+    <bottom>
+        <Button id="btn_start" fx:id="btn_start" mnemonicParsing="false" onAction="#onClick" text="Start" BorderPane.alignment="CENTER" />
+    </bottom>
+   <top>
+        <Label text="Google Dino Game" textFill="#9a9a9a" BorderPane.alignment="CENTER">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+   </top>
+</BorderPane>
