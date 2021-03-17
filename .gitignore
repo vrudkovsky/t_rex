@@ -2,6 +2,8 @@
 /target/
 /.idea/
 .gitignore
+/.gradle/
+/build/
 # Compiled class file
 *.class
 
