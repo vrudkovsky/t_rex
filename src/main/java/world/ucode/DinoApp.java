@@ -31,7 +31,6 @@ public class DinoApp extends Application {
             s.centerOnScreen();
             s.show();
             new Menu(root, s);
-
         } catch (Exception e) {
             e.printStackTrace();
         }
